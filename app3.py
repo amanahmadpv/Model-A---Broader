@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load model, features, and encoding map
-model = joblib.load("model_a_rf_lean.pkl")
-features = joblib.load("features_lean.pkl")  # Should contain the 6 feature names
+model = joblib.load("random_forest_onehot_model.pkl")
+features = joblib.load("features_model_a.pkl")  # Should contain the 6 feature names
 fpno_mapping = joblib.load("fpno_map.pkl")
 
 # Global mean for unknown FP No.
